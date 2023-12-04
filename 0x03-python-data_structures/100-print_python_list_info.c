@@ -1,6 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <time.h>
 #include <Python.h>
+#define _POSIX_C_SOURCE 200809L
 /**
  * print_python_list_info -  function that prints some basic
  *							info about Python lists
