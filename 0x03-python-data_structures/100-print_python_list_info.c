@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+struct timespec;
 #include <time.h>
 #include <Python.h>
 #define _POSIX_C_SOURCE 200809L
