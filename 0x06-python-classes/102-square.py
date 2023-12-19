@@ -27,7 +27,7 @@ class Square:
 
         def area(self):
             """Return the current area of the square."""
-            return self.__size ** 2
+            return (self.__size * self.__size)
 
         def __eq__(self, other):
             """Define the == comparison to a Square."""
@@ -38,7 +38,7 @@ class Square:
             return self.area() != other.area()
 
         def __it__(self, other):
-            """less than  comparison to a Square."""
+            """Define the < less than  comparison to a Square."""
             return self.area() < other.area()
 
         def __le__(self, other):
